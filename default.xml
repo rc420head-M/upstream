@@ -5,93 +5,74 @@
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
   
-  <!-- Aospb Projects -->
   <project path="art" name="art" remote="aospb"  />
   <project path="bionic" name="bionic" remote="aospb" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aospb" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
-  <project path="external/apache-http" name="external_apache-http" remote="aospb" />
   <project path="external/busybox" name="external_busybox" remote="aospb" />
   <project path="external/connectivity" name="external_connectivity" remote="aospb" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aospb" />
   <project path="external/exfat" name="external_exfat" remote="aospb" />
-  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="aospb" />
   <project path="external/fuse" name="external_fuse" remote="aospb" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="aospb" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aospb" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospb" />
   <project path="external/okhttp" name="external_okhttp" remote="aospb" />
   <project path="external/sepolicy" name="external_sepolicy" remote="aospb" />
   <project path="external/skia" name="external_skia" remote="aospb" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aospb" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aospb" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aospb" />
-  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="aospb" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aospb" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aospb" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospb" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospb" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospb" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aospb" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospb" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="aospb" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
-  <project path="libcore" name="libcore" remote="aospb" />
-  <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospb" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aospb" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aospb" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="aospb" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aospb" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aospb" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="aospb" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="aospb" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="aospb" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="aospb" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="aospb" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="aospb" />
-  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="aospb" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="aospb" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospb" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospb" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aospb" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
-  <project path="packages/services/Mms" name="packages_services_Mms" remote="aospb" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospb" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospb" />
-  <project path="system/bt" name="system_bt" remote="aospb" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospb" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
   <project path="system/extras" name="system_extras" remote="aospb" />
-  <project path="system/keymaster" name="system_keymaster" remote="aospb" />
   <project path="system/media" name="system_media" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
-  <project path="system/security" name="system_security" remote="aospb" />
   <project path="system/vold" name="system_vold" remote="aospb" />
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
   <project path="prebuilt" name="prebuilt" remote="aospb" />
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="aospb" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
   <project path="external/qrngd" name="external_qrngd" remote="aospb" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
